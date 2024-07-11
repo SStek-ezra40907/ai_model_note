@@ -25,6 +25,7 @@ $$
 f(x) = max(0, x)
 $$
 Offers efficient training and simplicity, making it one of the most widely used activation functions in deep learning models. It outputs the input directly if it is positive, else it will output zero.
+
 ![ReLU image](img/ReLU.png)
 
 - **Tanh (Hyperbolic Tangent)**: 
@@ -32,6 +33,7 @@ $$
 tanh(x) = (e^(x) - e^(-x)) / (e^(x) + e^(-x))
 $$
 Outputs values between -1 and 1, providing a zero-centered range which can lead to faster convergence in some cases.
+
 ![Tanh image](img/tanh.png)
 
 - **Softmax**: 
@@ -39,6 +41,7 @@ $$
 Softmax(x_i) = e^(x_i) / Σ(e^(x_j))
 $$
 Converts the output layer into a probability distribution, making it ideal for multi-class classification tasks.
+
 ![Softmax image](img/Softmax.png)
 
 ## Activation Functions During Inference
