@@ -18,14 +18,14 @@ $$
 $$
 Provides output between 0 and 1, making it suitable for binary classification. However, it's less used in deep networks due to the vanishing gradient problem.
 
-![Sigmoid image](img\Sigmoid.png)
+![Sigmoid image](img/Sigmoid.png)
 
 - **ReLU (Rectified Linear Unit)**: 
 $$
 f(x) = max(0, x)
 $$
 Offers efficient training and simplicity, making it one of the most widely used activation functions in deep learning models. It outputs the input directly if it is positive, else it will output zero.
-![ReLU image](img\ReLU.png)
+![ReLU image](img/ReLU.png)
 
 - **Tanh (Hyperbolic Tangent)**: 
 $$
